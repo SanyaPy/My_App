@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/expenseEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введіть ціну витрати"
+        android:inputType="numberDecimal" />
+
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Виберіть категорію витрати" />
+
+    <Button
+        android:id="@+id/addExpenseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Додати Витрату" />
+
+
+    <ListView
+        android:id="@+id/expensesListView"
+        android:layout_width="wrap_content"
+        android:layout_height="366dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/clearExpensesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Очистити всі витрати" />
+
+    <TextView
+        android:id="@+id/totalExpenseTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Total Expense: $0" />
+
+</LinearLayout>

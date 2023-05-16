@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expense_categories">
+        <item>Їжа</item>
+        <item>Розваги</item>
+        <item>Одяг</item>
+        <item>Оренда Житла</item>
+        <item>Медичні послуги</item>
+        <item>Wi-Fi / Мобільний інтернет</item>
+        <item>Навчання</item>
+        <item>Транспорт</item>
+        <item>Інші витрати</item>
+        <item>Пожертви / Донати</item>
+        <!-- Додайте інші категорії, які вам потрібні -->
+    </string-array>
+</resources>
